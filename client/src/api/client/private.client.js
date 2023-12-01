@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "https://moonflix-api.vercel.app/api/v1/";
+const baseURL = "https://movie-2024-api.vercel.app/api/v1/";
 
 const privateClient = axios.create({
   baseURL,
